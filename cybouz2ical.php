@@ -1,7 +1,10 @@
-#!/usr/env/bin php
+#! /usr/local/bin/php
 
 <?php
+
 require_once('setting.php');
+
+date_default_timezone_set('Asia/Tokyo');
 
 $query_str = '_System=login&_Login=1&LoginMethod=1&_ID=' . LOGIN_ID . '&Password=' . LOGIN_PASS;
 
