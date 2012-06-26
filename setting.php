@@ -10,8 +10,8 @@ define("LOGIN_PASS",  'xxyyzz');
 //詳細スケジュールを獲得する期間(日数)
 define("DETAIL_TERM_PRE",   '1');   //今日より何日前から詳細スケジュールを取得する
 define("DETAIL_TERM_AFTER", '14');  //今日より何日後まで詳細スケジュールを取得する
-//スケジュールタイトル
-define("ICAL_PREFIX", 'pc8sche_');
+//スケジュール名のprefix
+define("ICAL_PREFIX", '');
 //イベントIDを一意にするためのポストフィックス。ドメイン名などを設定する。
 define("ICAL_POSTFIX",'xxx.jp');
 //icalファイル名作成のためのシード(ランダムな文字列を設定)
